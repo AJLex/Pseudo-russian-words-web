@@ -1,0 +1,53 @@
+body {
+  background: url(/static/img/background.jpg);
+  background-size: cover;
+}
+
+h1 {
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+/*.container {
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}*/
+
+.form-control {
+  width: 200px;
+}
+
+#text {
+  padding-bottom: 50px;
+}
+
+#for_form {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+}
+
+#index {
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+
+#user_button {
+  float: left;
+  margin-right: 10px;
+}
+
+#id_username {
+  align:"right";
+}
+
+#id_password1 {
+  align: "right";
+
+}
+
+#id_password2 {
+  align: "right";
+}
