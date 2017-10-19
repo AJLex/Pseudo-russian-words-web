@@ -1,3 +1,8 @@
 from django.test import TestCase
+from .models import IndexTable, PseudoWord, WordsDictionary
+from views import get_words
 
-# Create your tests here.
+
+class QuestionMethodTests(TestCase):
+
+    def test_get_words(self):
